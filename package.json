@@ -4,7 +4,8 @@
   "description": "A blazing fast micro web framework made for rapid development of RESTful APIs",
   "main": "index.js",
   "scripts": {
-    "test": "xo && mocha ./tests/* --exit"
+    "test": "xo && mocha ./tests/* --exit",
+    "lint": "xo"
   },
   "repository": {
     "type": "git",
