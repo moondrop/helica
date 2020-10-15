@@ -1,10 +1,8 @@
 <div align="center">
-    <img src="https://i.imgur.com/N1XJO2l.jpeg" alt="Polka" width="600" />
+    <img src="https://i.imgur.com/N1XJO2l.jpeg" alt="Helica" width="600" />
 </div>
 
-<hr />
-
-Helica is a blazing fast micro web framework made for rapid development of RESTful APIs
+<div align="center">A blazing fast micro web framework made for rapid development of RESTful APIs</div>
 
 ## Installing
 ```
