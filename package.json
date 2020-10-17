@@ -11,6 +11,10 @@
     "type": "git",
     "url": "git+https://github.com/moondrop/helica.git"
   },
+  "files": [
+    "index.js",
+    "lib/"
+  ],
   "keywords": [
     "helica",
     "web",
