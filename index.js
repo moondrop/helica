@@ -23,6 +23,7 @@ module.exports = {
      * Methods
      */
     send: require('./lib/helpers/EndResponse').send,
+    render: require('./lib/helpers/EndResponse').render,
 
     /**
      * Middlewares
