@@ -18,6 +18,15 @@
     </a>
 </div>
 
+<br />
+
+## About
+Helica is an incredibly fast and highly performant web framework made for rapid development of RESTful APIs and minimalistic server-side rendered web applications. 
+
+While many other web frameworks for Node.js are *already* very fast in themselves, they're inherently bottlenecked by using the native Node.js HTTP server. Helica is build on top of a [custom HTTP server](https://github.com/uNetworking/uWebSockets.js/) written entirely in C++ in conjunction with highly optimized v8 bindings. This translates to **up to 300% the speed** of the native Node.js HTTP server *- even without any framework!*
+
+A full benchmarking suite can be found [here](benchmark/README.md).
+
 ## Installing
 ```
 npm i moondrop/helica
@@ -38,3 +47,7 @@ class HelloWorld {
 app.addResource('/', HelloWorld);
 app.run();
 ```
+
+## License
+## License
+This repository makes use of the [MIT License](https://opensource.org/licenses/MIT) and all of its correlating traits.
