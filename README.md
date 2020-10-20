@@ -18,8 +18,6 @@
     </a>
 </div>
 
-<br />
-
 ## About
 Helica is an incredibly fast and highly performant web framework made for rapid development of RESTful APIs and minimalistic server-side rendered web applications. 
 
@@ -48,6 +46,5 @@ app.addResource('/', HelloWorld);
 app.run();
 ```
 
-## License
 ## License
 This repository makes use of the [MIT License](https://opensource.org/licenses/MIT) and all of its correlating traits.
