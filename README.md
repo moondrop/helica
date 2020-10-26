@@ -13,8 +13,8 @@
     <a href="#">
         <img src="https://img.shields.io/badge/license-MIT-ed184e?style=for-the-badge" alt="MIT License">
     </a>
-    <a href="#">
-        <img src="https://img.shields.io/badge/npm-no%20release-ed184e?style=for-the-badge" alt="MIT License">
+    <a href="https://www.npmjs.com/package/helica">
+        <img src="https://img.shields.io/npm/v/helica?color=ed184e&style=for-the-badge" alt="npm Release">
     </a>
 </div>
 
@@ -29,7 +29,10 @@ A full benchmarking suite including exact results and code used can be found [he
 ```
 ❯ npm install helica
 ```
-> **Warning!** <br /> Installing Helica via Yarn is **not supported** as Yarn lacks the capability of forwarding SIGINT events to the underlying process thus breaking graceful shutdowns!
+> <br /> **Warning!** <br /><br />Installing Helica via Yarn is **not supported** as Yarn lacks the capability of forwarding SIGINT events to the underlying process thus breaking graceful shutdowns! <br />&nbsp;
+
+## Documentation
+Documentation is currently WIP and will be ready for the inital `1.x.x` launch of Helica. 
 
 ## Getting Started Example:
 
