@@ -24,6 +24,7 @@ module.exports = {
      */
     send: require('./lib/helpers/EndResponse').send,
     render: require('./lib/helpers/EndResponse').render,
+    json: require('./lib/helpers/EndResponse').json,
 
     /**
      * Middlewares
