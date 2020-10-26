@@ -27,8 +27,9 @@ A full benchmarking suite including exact results and code used can be found [he
 
 ## Installing
 ```
-npm i moondrop/helica
+❯ npm install helica
 ```
+> **Warning!** <br /> Installing Helica via Yarn is **not supported** as Yarn lacks the capability of forwarding SIGINT events to the underlying process thus breaking graceful shutdowns!
 
 ## Getting Started Example:
 
