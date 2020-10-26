@@ -9,7 +9,10 @@ All benchmarks were concluded on the same machine, network and port with the fol
 **Settings:** 2 Threads, 100 Connections, 30s Duration, Random Numbers
 
 ## Results
-![Helica Benchmark Results](https://i.imgur.com/QwdIowE.png)
+
+<div align="center">
+    <img src="https://i.imgur.com/QwdIowE.png" alt="Helica Benchmark Chart">
+</div>
 
 ## Detailed Results
 
