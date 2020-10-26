@@ -21,7 +21,7 @@
 ## About
 Helica is an incredibly fast and highly performant web framework made for rapid development of RESTful APIs and minimalistic server-side rendered web applications. 
 
-While many other web frameworks for Node.js are *already* very fast in themselves, they're inherently bottlenecked by using the native Node.js HTTP server. Helica is build on top of a [custom HTTP server](https://github.com/uNetworking/uWebSockets.js/) written entirely in C++ in conjunction with highly optimized v8 bindings. This translates to **up to 300% the speed** of the native Node.js HTTP server excluding the use of any framework and **up to 500% the speed** of popular solutions like Express.
+While many other web frameworks for Node.js are *already* very fast in themselves, they're inherently bottlenecked by using the native Node.js HTTP server. Helica is built on top of a [custom HTTP server](https://github.com/uNetworking/uWebSockets.js/) written entirely in C++ in conjunction with highly optimized v8 bindings. This translates to **up to 300% the speed** of the native Node.js HTTP server excluding the use of any framework and **up to 500% the speed** of popular solutions like Express.
 
 A full benchmarking suite including exact results and code used can be found [here](/benchmark).
 
