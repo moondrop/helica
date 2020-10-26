@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Helica Benchmark</title>
+    <script src="https://www.gstatic.com/charts/loader.js"></script>
+    <style>
+        body {
+            height: calc(100vh - 20px);
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        google.charts.load('current', {
+            packages: ['corechart', 'bar'],
+        });
+
+        google.charts.setOnLoadCallback(() => {
+            const data = google.visualization.arrayToDataTable([
+                ['Frameworks', 'Requests / Second'],
+                ['Express', 7239.50],
+                ['Opine (Deno)', 7932.99],
+                ['Koa', 11243.25],
+                ['Polka', 13108.66],
+                ['Rayo', 13884.45],
+                ['Helica', 40988.87]
+            ]);
+
+            new google.charts.Bar(document.body).draw(data, {
+                chart: {
+                    title: 'Helica Benchmark',
+                    subtitle: 'Node.js 14.9.0 and Deno 1.4.6 on a MacBook Air Late 2017 (1.8 GHz Dual-Core Intel Core i5, 8 GB 1600 MHz DDR3)',
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
