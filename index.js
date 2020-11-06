@@ -29,5 +29,6 @@ module.exports = {
     /**
      * Middlewares
      */
-    bodyParser: require('./lib/middlewares/BodyParser')
+    bodyParser: require('./lib/middlewares/BodyParser'),
+    cors: require('./lib/middlewares/CORS')
 };
