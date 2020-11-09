@@ -49,6 +49,7 @@
       "object-curly-spacing": 0,
       "no-negated-condition": 0,
       "no-await-in-loop": 0,
+      "complexity": 0,
       "max-params": [
         "warn",
         5
