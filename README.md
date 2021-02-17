@@ -19,22 +19,33 @@
 </div>
 
 ## About
-Helica is an incredibly fast and highly performant web framework made for rapid development of RESTful APIs and minimalistic server-side rendered web applications. 
+Helica is an incredibly fast and highly performant web framework made for rapid development of RESTful APIs and minimalistic server-side rendered web applications.
 
-While many other web frameworks for Node.js are *already* very fast in themselves, they're inherently bottlenecked by using the native Node.js HTTP server. Helica is built on top of a [custom HTTP server](https://github.com/uNetworking/uWebSockets.js/) written entirely in C++ in conjunction with highly optimized v8 bindings. This translates to **up to 300% the speed** of the native Node.js HTTP server excluding the use of any framework and **up to 500% the speed** of popular solutions like Express.
+Helica follows a fully object-oriented approach to creating a beautifully simple yet incredibly powerful architecture that allows developers to rapidly build highly demanding APIs, server-side rendered web applications and various other applications that require assets to be served to the web.
 
-A full benchmarking suite including exact results and code used can be found [here](/benchmark).
+Routes are handled by ***resource handlers***, which are JavaScript classes including methods corresponding to the HTTP methods they should handle for the registered route. This allows for incredibly fast and easy development of clean, easy to follow, maintainable and reusable code.
+
+## Intentions
+While many other web frameworks for Node.js are *already* very fast in themselves, they're inherently bottlenecked by using the native Node.js HTTP server. Helica is built on top of a [custom HTTP server](https://github.com/uNetworking/uWebSockets.js/) written entirely in C++ in conjunction with highly optimized v8 bindings. 
+
+This translates to **up to 300% the speed** of the native Node.js HTTP server excluding the use of any framework and **up to 500% the speed** of popular solutions like Express.
+
+A full benchmarking suite including exact results and used code can be found [here](/benchmark).
 
 ## Installing
+Installing Helica is as easy as typing
+
 ```
 ❯ npm install helica
 ```
-> <br /> **Warning!** <br /><br />Installing Helica via Yarn is **not supported** as Yarn lacks the capability of forwarding SIGINT events to the underlying process thus breaking graceful shutdowns! <br />&nbsp;
+
+> <br /> **Warning!** <br /><br />Running Helica via Yarn is **not supported** as Yarn lacks the capability of forwarding SIGINT events to the underlying process, thus breaking graceful shutdowns! Use at your own risk!<br />&nbsp;
 
 ## Documentation
-Documentation is currently WIP and will be ready for the inital `1.x.x` launch of Helica. 
+A full documentation can be found at [helica.moondrop.io](https://helica.moondrop.io)
 
-## Getting Started Example:
+## Getting Started
+Getting started with Helica is as simple as initiating a new project, installing Helica as depcited above and adding an `index.js` file with following contents:
 
 ```js
 const Helica = require('helica');
