@@ -1,6 +1,6 @@
 {
   "name": "helica",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A blazing fast micro web framework made for rapid development of RESTful APIs",
   "main": "index.js",
   "scripts": {
